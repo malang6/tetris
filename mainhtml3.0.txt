@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>¶íÂÞË¹·½¿é</title>
+		<link rel="icon" href="img/timg.jpg">
+	</head>
+	<style>
+	div{
+	width: 626px;
+	height: 640px;
+	margin: 0 auto;
+	}
+	img{
+	width: 626px;
+	height: 640px;
+	}
+	</style>
+
+</script>
+	<body>
+		<div >
+		<a href="index.html "><img class="img" src="img/Tetris.jpg" /></a>
+	</div>
+	</body>
+</html>
