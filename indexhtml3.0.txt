@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>俄罗斯方块</title>
+		<link rel="icon" href="img/timg.jpg">
+		<embed src="audio/BGM.mp3" hidden="true" autostart="true" loop="true" />
+		<link type="text/css" rel="stylesheet" href="css/aa.css" />
+		<script src="js/GameFrame.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/graph.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body class="body" onLoad="initGame()">
+		<div id="tetris">
+			<div id="control">
+				难度：
+				<div><select id="level" onChange="changespeed()">
+					<option value="1000">简单</option>
+					<option value="500">一般</option>
+					<option value="200">困难</option>
+				</select></div>
+				<input type="button" id="regame" value="重 新 开 始" onClick="regame()" />
+				<p>
+					↑：变换<br />
+					←：左移<br />
+					→：右移<br />
+					↓：加速<br />
+				</p>
+			</div>
+			<div id="TFrime"></div>
+			<div id="info">
+				下一个图形:
+				<div id="nextfigure">
+					
+				</div>
+				<div>分数：<span id="score">0</span></div>
+			</div>
+		</div>
+		<div style="text-align:center;">
+</div>
+	</body>
+</html>
